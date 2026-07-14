@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Products() {
-  const listProduk = ['Cetak Stiker', 'Brosur & Katalog', 'Banner / Spanduk', 'Merchandise Custom'];
+  const listProduk = ['Cetak Stiker', 'Brosur & Katalog', 'Package', 'Merchandise Custom'];
 
   return (
     <div className="container py-5 text-center" id="products">

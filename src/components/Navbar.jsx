@@ -85,7 +85,7 @@ function Navbar() {
             </li>
           </ul>
 
-          <div className="d-flex">
+          {/* <div className="d-flex">
             <a
               href="https://wa.me/628xxxxxxxxxx"
               target="_blank"
@@ -95,7 +95,7 @@ function Navbar() {
             >
               Hubungi Kami
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>

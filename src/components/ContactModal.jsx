@@ -14,13 +14,15 @@ function ContactModal() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Menyusun URL mailto otomatis ke email kantor Kiwi Printing
     const emailTujuan = 'printingkiwi@gmail.com';
     const subjectEmail = encodeURIComponent(formData.subject || 'Tanya Seputar Cetak Kiwi Printing');
     const bodyEmail = encodeURIComponent(`Nama: ${formData.name}\n\nPesan:\n${formData.message}`);
     
-    // Membuka aplikasi email user
-    window.location.href = `mailto:${emailTujuan}?subject=${subjectEmail}&body=${bodyEmail}`;
+    // SOLUSI NYATA: Langsung tembak ke web Gmail compose link
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${emailTujuan}&su=${subjectEmail}&body=${bodyEmail}`;
+    
+    // Membuka tab baru yang dijamin langsung memuat halaman compose Gmail
+    window.open(gmailUrl, '_blank', 'noopener,noreferrer');
   };
 
   return (
