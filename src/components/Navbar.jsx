@@ -78,7 +78,7 @@ function Navbar() {
               <button
                 className="nav-link px-3 border-0 bg-transparent"
                 data-bs-toggle="modal"
-                data-bs-target="#ContactModal.jsx"
+                data-bs-target="#contactModal"
               >
                 Contact
               </button>
