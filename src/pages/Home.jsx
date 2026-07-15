@@ -6,9 +6,6 @@ function Home() {
       <div className="container py-5 text-center text-md-start">
         <div className="row align-items-center g-5">
           <div className="col-md-6">
-            <span className="badge fw-bold px-3 py-2 mb-3 rounded-pill" style={{ backgroundColor: '#e6f6ff', color: '#00a2ff' }}>
-              ⚡ Cetak Cepat & Berkualitas
-            </span>
             <h1 className="display-4 fw-bold lh-sm mb-3">
               Cetak Cepat, Hasil Hebat, Harga Tepat!
             </h1>

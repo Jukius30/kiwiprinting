@@ -32,7 +32,7 @@ function Footer() {
             <p className="text-secondary small mb-2">📍 Margomulyo Permai - AH 34, Surabaya, Jawa Timur</p>
             <p className="text-secondary small mb-2">📞 (031) 74990347</p>
             <p className="text-secondary small mb-2">📞 (031) 74990348</p>
-            <p className="text-secondary small mb-2">✉️ pintingkiwi@gmail.com</p>
+            <p className="text-secondary small mb-2">✉️ printingkiwi@gmail.com</p>
             <p className="text-secondary small mb-2">✉️ kiwi_printing@yahoo.com</p>
           </div>
 
