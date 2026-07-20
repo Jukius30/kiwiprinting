@@ -22,14 +22,18 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
       <div className="container">
-        {/* Klik logo otomatis balik ke Home atas */}
+        {/* LOGO DIUBAH MENJADI GAMBAR */}
         <Link
-          className="navbar-brand fw-bold fs-4"
+          className="navbar-brand d-flex align-items-center"
           to="/"
           onClick={() => handleScroll("home")}
         >
-          <span style={{ color: "#00a2ff" }}>Kiwi</span>
-          <span className="text-dark">Printing</span>
+          <img 
+            src="/logosamping.png" 
+            alt="Kiwi Printing Logo" 
+            style={{ height: "45px", width: "auto", objectFit: "contain" }} 
+            className="d-inline-block align-top"
+          />
         </Link>
 
         <button
@@ -73,7 +77,7 @@ function Navbar() {
                 Portfolio
               </Link>
             </li>
-            {/* Contact LANGSUNG BUKA APLIKASI EMAIL KANTOR */}
+            {/* Contact LANGSUNG BUKA POP-UP MODAL */}
             <li className="nav-item">
               <button
                 className="nav-link px-3 border-0 bg-transparent"
@@ -84,18 +88,6 @@ function Navbar() {
               </button>
             </li>
           </ul>
-
-          {/* <div className="d-flex">
-            <a
-              href="https://wa.me/628xxxxxxxxxx"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn text-white rounded-pill fw-bold px-4"
-              style={{ backgroundColor: "#00a2ff", border: "none" }}
-            >
-              Hubungi Kami
-            </a>
-          </div> */}
         </div>
       </div>
     </nav>
