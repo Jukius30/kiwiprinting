@@ -7,11 +7,11 @@ function Home() {
         <div className="row align-items-center g-5">
           <div className="col-md-6">
             <h1 className="display-4 fw-bold lh-sm mb-3">
-              Cetak Cepat, Hasil Hebat, Harga Tepat!
+              Your Partner for Printing Solution
             </h1>
-            <p className="lead text-secondary mb-4">
+            {/* <p className="lead text-secondary mb-4">
               Kiwi Printing hadir memenuhi segala kebutuhan percetakan digital dan offset Anda dengan mesin presisi tinggi dan pelayanan profesional.
-            </p>
+            </p> */}
             <div className="d-flex gap-3 justify-content-center justify-content-md-start">
               {/* Diarahkan ke id products yang ada di MainPage */}
               <a href="#products" className="btn text-white btn-lg px-4 rounded-pill fw-bold shadow-sm" style={{ backgroundColor: '#00a2ff', border: 'none' }}>

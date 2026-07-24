@@ -9,10 +9,13 @@ function About() {
             Tentang Kami
           </h2>
           <p className="mt-3 text-secondary">
-            Kiwi Printing adalah penyedia solusi percetakan terintegrasi yang berbasis di Surabaya. Kami berkomitmen untuk membantu bisnis, organisasi, hingga perorangan dalam memvisualisasikan ide-ide kreatif mereka ke dalam bentuk cetakan berkualitas tinggi.
+            Kiwi Printing mengawali usahanya di bidang Jasa Printing. Seiring dengan perkembangan jaman serta tingginya kebutuhan konsumen akan printing offset, Kiwi Printing telah berinovasi dengan menggunakan mesin berteknologi canggih dan berkecepatan tinggi, serta berbagai macam mesin penunjang untuk memberikan hasil yang terbaik.
+          </p>
+          <p className="text-secondary">
+            Untuk meningkatkan kualitas kerja, Kiwi Printing juga mengimbanginya dengan Quality Control di setiap pekerjaannya demi memberikan hasil yang terbaik.
           </p>
         </div>
-        <div className="col-md-7">
+        {/* <div className="col-md-7">
           <div className="row g-3">
             <div className="col-sm-6">
               <div className="p-4 bg-light rounded-3 border-start border-4" style={{ borderColor: '#00a2ff' }}>
@@ -27,7 +30,7 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
